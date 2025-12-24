@@ -30,7 +30,7 @@ function App() {
   return (
     <>
       <div className='w-full max-w-md mx-auto shadow-md rounded-lg px-4 p-5 text-orange-500'>
-        <h1 className='text-center my-3'>Password Generator</h1>
+        <h1 className='text-center my-3'>Password Generator with Number and Character</h1>
         <div className='flex shadow rounded-lg overflow-hidden mb-4 my-5 '>
           <input type="text" value={password} className='outline-none w-full py-1 px-3 text-gray' placeholder='password' readOnly ref={passwordRef}/>
           <button className='cursor-pointer outline-none px-3 py-0.5 bg-blue-700 shrink-0' onClick={copyPasswordToClipBoard}>Copy</button>
